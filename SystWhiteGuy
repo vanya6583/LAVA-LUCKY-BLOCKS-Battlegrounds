@@ -3,7 +3,7 @@ wait(0.5)
   local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/PlayerseSyst", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-  game:service('Players').LocalPlayer:Kick('You are kicked!')
+  game:service('Players').LocalPlayer:Kick('You are banned!')
 else
 
 end
