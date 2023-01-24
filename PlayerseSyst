@@ -1,7 +1,6 @@
 userids = {
-[4151155482] = true,
-[4272444805] = true,
-[4151155482] = true
+[1] = true,
+[4272444805] = true
 }
 return userids
---Banned: 4151155482,197347312(Fake),3482821105(Dev),4272444805(Abuser)
+--Banned:  4272444805[Abuser], 
