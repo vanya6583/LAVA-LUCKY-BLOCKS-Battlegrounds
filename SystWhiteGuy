@@ -3,7 +3,7 @@ wait(1)
   local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/PlayerseSyst", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-game:service('Players').LocalPlayer:Kick('Error 6603, discord copied to clipboard')
+game:service('Players').LocalPlayer:Kick('BANNED for crushing server's, x10 execute script or do some bad thing's! (GO CRY BITCH!)')
 else
 print("Work")
 end
