@@ -4,7 +4,6 @@ wait(0.5)
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 game:service('Players').LocalPlayer:Kick('Error 6603, discord copied to clipboard')
-end
 else
 
 end
