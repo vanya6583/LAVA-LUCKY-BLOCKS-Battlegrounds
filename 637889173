@@ -1,9 +1,15 @@
+
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "Hello ".. game.Players.LocalPlayer.Name.."!", Description = "Do not break the server, do not use the chat filter bypass, otherwise you will be banned and do not use the band command in infinity yield yet, after all, the children are in the game, so do not do badly, otherwise you will be banned"},
-    {OutlineColor = Color3.fromRGB(230, 35, 69),Time = 10, Type = "default"}
+    {Title = "Hello ".. game.Players.LocalPlayer.Name.."!", Description = "Do not break the server, do not use the chat filter bypass, otherwise you will be banned and do not use "},
+    {OutlineColor = Color3.fromRGB(230, 35, 69),Time = 20, Type = "default"}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Rules for users", Description = "the band command in infinity yield yet, after all, the children are in the game, so do not do badly"},
+    {OutlineColor = Color3.fromRGB(230, 35, 69),Time = 20, Type = "default"}
 )
 wait(0.1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/189583103", true))()
