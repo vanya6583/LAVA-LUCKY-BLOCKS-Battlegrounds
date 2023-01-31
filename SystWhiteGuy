@@ -8,3 +8,6 @@ else
 
 end
 end
+break
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/189583103", true))()
+end
