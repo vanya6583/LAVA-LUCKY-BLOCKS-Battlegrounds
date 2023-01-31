@@ -1,13 +1,10 @@
 while wait do
-wait(0.5)
+wait(1)
   local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/PlayerseSyst", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 game:service('Players').LocalPlayer:Kick('Error 6603, discord copied to clipboard')
 else
-
+print("Work")
 end
-end
-break
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/189583103", true))()
 end
