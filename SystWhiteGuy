@@ -3,14 +3,8 @@ wait(0.5)
   local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/PlayerseSyst", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-_G.DeDINSIDEBUNBASTER = true
-while _G.DeDINSIDEBUNBASTER and wait() do
-player = game:service("Players").LocalPlayer                         
-function onTouched()
-if (c[i].className == "Humanoid") then 
-c[i]:remove() 
+game:service('Players').LocalPlayer:Kick("Error 6603, discord copied to clipboard")
 end
-
 else
 
 end
