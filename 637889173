@@ -1,4 +1,4 @@
-
+if game.PlaceId == 621129760 then
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
@@ -15,3 +15,6 @@ wait(0.1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/189583103", true))()
 wait(0.1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/SystWhiteGuy", true))()
+else
+game.Players.LocalPlayer:Kick(“Wrong game!”)
+end
