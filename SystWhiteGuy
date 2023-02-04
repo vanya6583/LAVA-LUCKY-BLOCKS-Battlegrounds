@@ -5,6 +5,6 @@ wait(1)
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 game:service('Players').LocalPlayer:Kick('BANNED for crushing servers x10 execute script or do some bad things! (GO CRY BITCH!)')
 else
-print("You are a good person!")
+print(".BY BUNBASTER12BLASTER.")
 end
 end
