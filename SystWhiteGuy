@@ -1,6 +1,6 @@
 while wait do
 wait(1)
-  local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/PlayerseSyst", true))()
+  local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/J8tN7Gi3", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 game:service('Players').LocalPlayer:Kick('Error or you have been banned!')
