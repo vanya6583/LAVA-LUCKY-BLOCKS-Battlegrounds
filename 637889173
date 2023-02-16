@@ -18,3 +18,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-
 else
 game.Players.LocalPlayer:Kick('Wrong game!')
 end
+local annoying = {"BUNBASTER12BLASTER","Comicorner2","Comicorner3","Comicorner4","Comicorner5","Comicorner6","Comicorner7","Comicorner8"} -- you can add more players by doing {"Player1", "Player2"} etc
+
+game.Players.PlayerAdded:Connect(function(plr)
+for i, v in pairs(annoying) do
+if plr.Name == v then
+Notification:Notify(
+    {Title = "The BUNBASTER12BLASTER here... Run anyway...."},
+    {OutlineColor = Color3.fromRGB(255, 0, 0),Time = 20, Type = "default"}
+)
+end
+end
+end)
