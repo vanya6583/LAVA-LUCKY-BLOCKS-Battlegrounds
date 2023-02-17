@@ -25,8 +25,7 @@ local loc = game.Players.LocalPlayer
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 Notification:Notify(
-    {Title = "The BUNBASTER12BLASTER here... Run anyway....he is invincible.....
-Behind him is a sword that killed many gods....RUN..."},
+    {Title = "The BUNBASTER12BLASTER here... Run anyway...."},
     {OutlineColor = Color3.fromRGB(255, 0, 0),Time = 20, Type = "default"}
 )
 end
@@ -35,4 +34,3 @@ end)
 else
 game.Players.LocalPlayer:Kick('Wrong game!')
 end
-
