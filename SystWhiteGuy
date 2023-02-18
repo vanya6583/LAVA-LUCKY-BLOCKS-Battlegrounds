@@ -1,10 +1,10 @@
 while wait do
-wait(1)
+game:GetService("RunService").RenderStepped:wait()
   local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/J8tN7Gi3", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 game:service('Players').LocalPlayer:Kick('Error or you have been banned!')
 else
-print(".BY BUNBASTER12BLASTER.")
+
 end
 end
