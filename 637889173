@@ -1,8 +1,6 @@
 if game.PlaceId == 662417684 then
 wait(0.1)
-_G.host = "BUNBASTER12BLASTER" 
-loadstring(game:HttpGet('https://pastebin.com/raw/3hQghqPQ'))()
-wait(0.1)
+wait(1.1)
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
