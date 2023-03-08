@@ -1,38 +1,8 @@
 if game.PlaceId == 662417684 then
 wait(0.1)
-wait(1.1)
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
-
-Notification:Notify(
-    {Title = "Hello ".. game.Players.LocalPlayer.Name.."!", Description = "Do not break the server, do not use the chat filter bypass, otherwise you will be banned and do not use "},
-    {OutlineColor = Color3.fromRGB(230, 35, 69),Time = 20, Type = "default"}
-)
-wait(1)
-Notification:Notify(
-    {Title = "Rules for users", Description = "the band command in infinity yield yet, after all, the children are in the game, so do not do badly"},
-    {OutlineColor = Color3.fromRGB(230, 35, 69),Time = 20, Type = "default"}
-)
-wait(0.1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/189583103", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/71665BUNBASTER654", true))()
 wait(0.1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vanya6583/LAVA-LUCKY-BLOCKS-Battlegrounds/main/SystWhiteGuy", true))()
-wait(0.1)
-local bigdev = {"BUNBASTER12BLASTER","Comicorner1"} -- you can add more players by doing {"Player1", "Player2"} etc
-
-game.Players.PlayerAdded:Connect(function(plr)
-for i, v in pairs(bigdev) do
-if plr.Name == v then
-local loc = game.Players.LocalPlayer
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
-Notification:Notify(
-    {Title = "The BUNBASTER12BLASTER here... Run anyway...."},
-    {OutlineColor = Color3.fromRGB(255, 0, 0),Time = 20, Type = "default"}
-)
-end
-end
-end)
 else
 game.Players.LocalPlayer:Kick('Wrong game!')
 end
